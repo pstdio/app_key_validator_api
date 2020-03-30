@@ -7,6 +7,6 @@ package eu.pstdio.app_key_validator_api.business.message;
 public interface InputMessage {
     String getUuid();
     void setUuid(String uuid);
-    String getKey();
-    void setKey(String key);
+    String getAppKey();
+    void setAppKey(String appKey);
 }
