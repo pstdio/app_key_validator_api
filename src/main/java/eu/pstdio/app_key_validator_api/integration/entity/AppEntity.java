@@ -8,7 +8,7 @@ public interface AppEntity {
     String getKey();
     void setKey(String key);
     String getUuid();
-    void setUuid(String key);
+    void setUuid(String uuid);
     boolean isDisabled();
     void setDisabled(boolean disabled);
 }
