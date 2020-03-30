@@ -7,5 +7,5 @@ import eu.pstdio.app_key_validator_api.integration.entity.AppEntity;
  * @author mib
  */
 public interface AppDao {
-    AppEntity getByUuid(String uuid);
+    AppEntity getByUuid(AppEntity entity);
 }
